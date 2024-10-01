@@ -5,4 +5,108 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+.header {
+  background-color: #ffffff;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 80px 40px;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  margin: 8px 0 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  margin: 183px 0 0;
+  max-width: 709px;
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  max-width: 683px;
+  padding-top: 28px;
+}
+
+.header__image {
+  position: absolute;
+  max-width: 636px;
+  right: 5px;
+  top: 124px;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__paragraph {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
