@@ -10,7 +10,6 @@
     />
     <meta name="author" content="Alejandro Zuluaga" />
     <meta name="keywords" content="Café, Recetas, Reservar" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -169,7 +168,47 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__content">
+          <div class="footer__circle"></div>
+          <div class="footer__columns">
+            <div class="footer__column">
+              <img
+                src="./images/logo_coffeeshop_light.svg"
+                alt="Logo inside_coffee_shop"
+                class="footer__logo"
+              />
+            </div>
+
+            <div class="footer__column footer__social">
+              <h2 class="footer__column-heading">Redes sociales</h2>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a class="footer__column-link" href="#">
+                    <img
+                      src="images/facebook_white.svg"
+                      alt="Facebook Logo"
+                      class="footer__social-icon"
+                    />
+                    Facebook
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__column-link" href="#">
+                    <img
+                      src="images/instagram_white.svg"
+                      alt="Instagram Logo"
+                      class="footer__social-icon"
+                    />
+                    Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="footer__copyright">&#169; 2024 Alejandro Zuluaga</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
